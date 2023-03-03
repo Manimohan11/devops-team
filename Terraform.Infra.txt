@@ -123,4 +123,28 @@ resource "aws_route_table_association" "dev_prisub_rtasso" {
   subnet_id      = aws_subnet.devprisub.id                          
   route_table_id = aws_route_table.dev_prirt.id                      
 }
+resource "aws_instance" "pub_instance" {
+  ami                                 = "ami-052cef05d01020f1d"
+  instance_type                       = "t2.micro"
+  availability_zone                   = "ap-south-1a"
+  associate_public_ip_address         = "true"
+  vpc_security_group_ids              = [aws_security_group.deep_pub_sg.id]
+  subnet_id                           = aws_subnet.deeppubsub.id
+  key_name                            = "terraform-Key"
+  
+    tags = {
+    Name = "DEV-PUBLIC-SUBNET-INSTANCE"
+  }
+}
+resource "aws_instance" "pri_instance" {
+  ami                                   = "ami-052cef05d01020f1d"
+  instance_type                         = "t2.micro"
+  availability_zone                     = "ap-south-1b"
+  associate_public_ip_address           = "false"
+  vpc_security_group_ids                = [aws_security_group.dev_pri_sg.id]
+  subnet_id                             = aws_subnet.devprisub.id
+  key_name                              = "terraform-Key"
+  
+    tags = {
+    Name = "DEV-PRIVATE-SUBNET-INSTANCE"
 
