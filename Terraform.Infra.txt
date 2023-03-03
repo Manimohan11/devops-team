@@ -147,5 +147,4 @@ resource "aws_instance" "pri_instance" {
   
     tags = {
     Name = "DEV-PRIVATE-SUBNET-INSTANCE"
-  }
-}
+ 
