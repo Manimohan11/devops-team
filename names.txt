@@ -1,1 +1,1 @@
-git-server communicate with github and push the file into remote repo.
+git-server communicate with github and push the file into remote repository
