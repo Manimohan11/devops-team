@@ -1,1 +1,2 @@
 git-server communicate with github and push the file into remote repository
+new commited
