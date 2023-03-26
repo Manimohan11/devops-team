@@ -1,1 +1,12 @@
-git-server communicate with github and push the file into remote repo.
+git-server communicate with github and push the file into remote repo. 
+Sourcecode commit into github.
+git-server communicate with github and push the file into remote repository.
+<html>
+<title> devOps team </title>
+<body>
+<h1> Git & GitHub </h1>
+</body>
+</html>
+git-server communicate with github and push the file into remote repository
+git-server communicate with github and push the file into remote repository
+new commited
