@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+git-server communicate with github and push the file into remote repository
+new commited
+||||||| 2eec49b
+git-server communicate with github and push the file into remote repo.
+=======
 git-server communicate with github and push the file into remote repo. 
 Sourcecode commit into github.
 git-server communicate with github and push the file into remote repository.
@@ -10,3 +16,4 @@ git-server communicate with github and push the file into remote repository.
 git-server communicate with github and push the file into remote repository
 git-server communicate with github and push the file into remote repository
 new commited
+>>>>>>> master
