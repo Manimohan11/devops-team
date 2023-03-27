@@ -6,12 +6,8 @@ mani
 balaji
 naveen
 kohilan
->>>>>>> mani
-||||||| 3a3437c
-=======
 Ganesh
 mani
 balaji
 naveen
 kohilan
->>>>>>> mani
